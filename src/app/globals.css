@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff5f7;
+  --surface: #ffffff;
+  --surface-soft: #fff0f3;
+  --foreground: #5a3a4a;
+  --muted: #a08090;
+  --primary: #ff9fb5;
+  --primary-strong: #ff7a9a;
+  --accent: #ffd6a5;
+  --mint: #b5ead7;
+  --lilac: #d7c6ff;
+  --border: #ffd9e3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-strong: var(--primary-strong);
+  --color-accent: var(--accent);
+  --color-mint: var(--mint);
+  --color-lilac: var(--lilac);
+  --color-border: var(--border);
+  --font-sans: var(--font-gowun);
+  --font-display: var(--font-gaegu);
+}
+
+body {
+  background:
+    radial-gradient(at 10% 0%, #ffe1ec 0, transparent 50%),
+    radial-gradient(at 90% 10%, #fff1d6 0, transparent 45%),
+    radial-gradient(at 50% 100%, #e9dcff 0, transparent 55%),
+    var(--background);
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: var(--font-gowun), "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+
+::selection {
+  background: var(--primary);
+  color: white;
+}
+
+.prose-cute {
+  line-height: 1.9;
+  font-size: 1.05rem;
+  color: var(--foreground);
+}
+.prose-cute h1,
+.prose-cute h2,
+.prose-cute h3 {
+  font-family: var(--font-gaegu), var(--font-gowun), sans-serif;
+  color: var(--primary-strong);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+.prose-cute h2 {
+  font-size: 1.6rem;
+}
+.prose-cute h3 {
+  font-size: 1.3rem;
+}
+.prose-cute p {
+  margin: 1rem 0;
+}
+.prose-cute a {
+  color: var(--primary-strong);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 3px;
+}
+.prose-cute strong {
+  background: linear-gradient(transparent 60%, #ffe3ec 60%);
+  padding: 0 2px;
+  font-weight: 700;
+}
+.prose-cute ul {
+  list-style: none;
+  padding-left: 0.25rem;
+}
+.prose-cute ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin: 0.35rem 0;
+}
+.prose-cute ul li::before {
+  content: "🌸";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.9rem;
+}
+.prose-cute blockquote {
+  margin: 1.25rem 0;
+  padding: 0.9rem 1.1rem;
+  background: var(--surface-soft);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 1rem 1rem 0;
+  color: var(--muted);
+}
+.prose-cute code {
+  background: #fff0f6;
+  color: #c7456c;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.5rem;
+  font-size: 0.9em;
+}
+.prose-cute pre {
+  background: #2d2033;
+  color: #ffe8f0;
+  padding: 1rem 1.1rem;
+  border-radius: 1rem;
+  overflow-x: auto;
+  margin: 1.25rem 0;
+  font-size: 0.9rem;
+}
+.prose-cute pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+.prose-cute hr {
+  border: none;
+  text-align: center;
+  margin: 2rem 0;
+}
+.prose-cute hr::after {
+  content: "✿  ✿  ✿";
+  color: var(--primary);
+  letter-spacing: 0.5rem;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.animate-float {
+  animation: float-slow 4s ease-in-out infinite;
+}
