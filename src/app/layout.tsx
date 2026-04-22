@@ -18,7 +18,7 @@ const gowun = Gowun_Dodum({
 });
 
 export const metadata: Metadata = {
-  title: "모찌 블로그 🎀",
+  title: "단영 블로그 🎀",
   description: "소소한 일상과 좋아하는 것들을 기록하는 작은 공간",
 };
 
@@ -39,7 +39,7 @@ export default function RootLayout({
                 className="text-xl font-bold tracking-tight text-[color:var(--primary-strong)]"
                 style={{ fontFamily: "var(--font-gaegu)" }}
               >
-                모찌 블로그
+                단영 블로그
               </span>
             </Link>
             <div className="flex items-center gap-5 text-sm">
@@ -71,7 +71,7 @@ export default function RootLayout({
 
         <footer className="py-10 text-center text-xs text-[color:var(--muted)]">
           <div className="mb-1">🌷 🍑 ☁️ 🧸 🎀</div>
-          <div>© 2026 모찌 블로그 · Made with love & Next.js</div>
+          <div>© 2026 단영 블로그 · Made with love & Next.js</div>
         </footer>
       </body>
     </html>

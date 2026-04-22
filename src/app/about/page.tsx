@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "소개 🧸 · 모찌 블로그",
+  title: "소개 🧸 · 단영 블로그",
 };
 
 export default function AboutPage() {
@@ -11,7 +11,7 @@ export default function AboutPage() {
           className="mt-3 text-3xl sm:text-4xl font-bold text-[color:var(--foreground)]"
           style={{ fontFamily: "var(--font-gaegu)" }}
         >
-          안녕하세요, 모찌예요!
+          안녕하세요, 단영이에요!
         </h1>
         <p className="mt-2 text-sm text-[color:var(--muted)]">
           작고 소중한 것들을 좋아하는 사람이에요 🐰

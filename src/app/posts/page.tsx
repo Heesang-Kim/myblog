@@ -2,7 +2,7 @@ import { getAllPosts } from "@/lib/posts";
 import { PostCard } from "@/components/PostCard";
 
 export const metadata = {
-  title: "글 목록 🍡 · 모찌 블로그",
+  title: "글 목록 🍡 · 단영 블로그",
 };
 
 export default function PostsPage() {

@@ -15,7 +15,7 @@ export async function generateMetadata({
   try {
     const post = await getPost(slug);
     return {
-      title: `${post.title} · 모찌 블로그`,
+      title: `${post.title} · 단영 블로그`,
       description: post.excerpt,
     };
   } catch {

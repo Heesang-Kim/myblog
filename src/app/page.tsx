@@ -22,7 +22,7 @@ export default function Home() {
           style={{ fontFamily: "var(--font-gaegu)" }}
         >
           안녕하세요, <br />
-          모찌 블로그에 오신 걸 환영해요 🎀
+          단영 블로그에 오신 걸 환영해요 🎀
         </h1>
         <p className="mt-5 max-w-md text-[color:var(--muted)] leading-relaxed">
           소소한 일상, 달콤한 디저트, 개발하면서 배운 것들을 <br />
