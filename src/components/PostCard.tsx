@@ -2,11 +2,11 @@ import Link from "next/link";
 import type { PostMeta } from "@/lib/posts";
 
 const PASTELS = [
-  "bg-[#fff0f3] hover:bg-[#ffe1e9]",
-  "bg-[#fff6e1] hover:bg-[#ffecc4]",
-  "bg-[#eafff3] hover:bg-[#d6fbe6]",
-  "bg-[#efeaff] hover:bg-[#e1d9ff]",
-  "bg-[#e7f5ff] hover:bg-[#d0ecff]",
+  "bg-[#d9f1fa] hover:bg-[#c3e7f6]",
+  "bg-[#e6f7f2] hover:bg-[#d1efe6]",
+  "bg-[#eaf4ff] hover:bg-[#d6e9fd]",
+  "bg-[#e0f7f5] hover:bg-[#caefeb]",
+  "bg-[#fff2dc] hover:bg-[#ffe5bf]",
 ];
 
 function formatDate(date: string) {
@@ -25,7 +25,7 @@ export function PostCard({ post, index }: { post: PostMeta; index: number }) {
   return (
     <Link
       href={`/posts/${post.slug}`}
-      className={`group block rounded-3xl ${bg} p-6 shadow-[0_8px_24px_-12px_rgba(255,122,154,0.35)] ring-1 ring-white/60 transition hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-10px_rgba(255,122,154,0.45)]`}
+      className={`group block rounded-3xl ${bg} p-6 shadow-[0_8px_24px_-12px_rgba(47,165,196,0.35)] ring-1 ring-white/60 transition hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-10px_rgba(47,165,196,0.45)]`}
     >
       <div className="flex items-start gap-4">
         <div

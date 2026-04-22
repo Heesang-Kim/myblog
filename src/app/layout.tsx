@@ -18,8 +18,8 @@ const gowun = Gowun_Dodum({
 });
 
 export const metadata: Metadata = {
-  title: "단영 블로그 🎀",
-  description: "소소한 일상과 좋아하는 것들을 기록하는 작은 공간",
+  title: "단영 블로그 🌊",
+  description: "소소한 일상과 좋아하는 것들을 기록하는 작은 바다",
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
         <header className="sticky top-0 z-20 backdrop-blur-md bg-white/60 border-b border-[color:var(--border)]">
           <nav className="max-w-3xl mx-auto flex items-center justify-between px-5 py-4">
             <Link href="/" className="flex items-center gap-2 group">
-              <span className="text-2xl animate-float">🐰</span>
+              <span className="text-2xl animate-float">🐳</span>
               <span
                 className="text-xl font-bold tracking-tight text-[color:var(--primary-strong)]"
                 style={{ fontFamily: "var(--font-gaegu)" }}
@@ -70,7 +70,7 @@ export default function RootLayout({
         </main>
 
         <footer className="py-10 text-center text-xs text-[color:var(--muted)]">
-          <div className="mb-1">🌷 🍑 ☁️ 🧸 🎀</div>
+          <div className="mb-1">🐚 🐠 🌊 ⭐ 🫧</div>
           <div>© 2026 단영 블로그 · Made with love & Next.js</div>
         </footer>
       </body>

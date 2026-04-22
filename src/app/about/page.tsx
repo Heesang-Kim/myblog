@@ -1,12 +1,12 @@
 export const metadata = {
-  title: "소개 🧸 · 단영 블로그",
+  title: "소개 🐳 · 단영 블로그",
 };
 
 export default function AboutPage() {
   return (
     <div className="space-y-8">
       <header className="text-center">
-        <div className="text-6xl animate-float">🧸</div>
+        <div className="text-6xl animate-float">🐳</div>
         <h1
           className="mt-3 text-3xl sm:text-4xl font-bold text-[color:var(--foreground)]"
           style={{ fontFamily: "var(--font-gaegu)" }}
@@ -14,17 +14,17 @@ export default function AboutPage() {
           안녕하세요, 단영이에요!
         </h1>
         <p className="mt-2 text-sm text-[color:var(--muted)]">
-          작고 소중한 것들을 좋아하는 사람이에요 🐰
+          바다와 잔잔한 파도를 좋아하는 사람이에요 🌊
         </p>
       </header>
 
-      <section className="rounded-[2rem] border border-[color:var(--border)] bg-white/70 p-8 shadow-[0_10px_30px_-15px_rgba(255,122,154,0.35)] space-y-6">
+      <section className="rounded-[2rem] border border-[color:var(--border)] bg-white/70 p-8 shadow-[0_10px_30px_-15px_rgba(47,165,196,0.35)] space-y-6">
         <div>
           <h2
             className="text-xl font-bold text-[color:var(--primary-strong)]"
             style={{ fontFamily: "var(--font-gaegu)" }}
           >
-            🎀 이 블로그는요
+            🌊 이 블로그는요
           </h2>
           <p className="mt-2 leading-relaxed text-[color:var(--foreground)]">
             하루 중 떠오른 작은 생각들, 좋아하는 디저트, 공부하면서 배운 것들을
@@ -42,11 +42,11 @@ export default function AboutPage() {
           </h2>
           <ul className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
             {[
-              { emoji: "🍓", label: "딸기 디저트" },
+              { emoji: "🐚", label: "조개 줍기" },
               { emoji: "📚", label: "느긋한 독서" },
-              { emoji: "🎨", label: "파스텔 컬러" },
-              { emoji: "🐾", label: "귀여운 동물" },
-              { emoji: "☁️", label: "구름 구경" },
+              { emoji: "🌊", label: "파도 소리" },
+              { emoji: "🐠", label: "열대어 구경" },
+              { emoji: "⭐", label: "밤바다 별빛" },
               { emoji: "💻", label: "웹 개발" },
             ].map((item) => (
               <li

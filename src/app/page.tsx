@@ -7,12 +7,12 @@ export default function Home() {
 
   return (
     <div className="space-y-14">
-      <section className="relative overflow-hidden rounded-[2rem] border border-[color:var(--border)] bg-white/70 p-8 shadow-[0_10px_30px_-15px_rgba(255,122,154,0.4)] sm:p-12">
+      <section className="relative overflow-hidden rounded-[2rem] border border-[color:var(--border)] bg-white/70 p-8 shadow-[0_10px_30px_-15px_rgba(47,165,196,0.4)] sm:p-12">
         <div className="absolute -right-8 -top-6 text-[7rem] opacity-40 select-none" aria-hidden>
-          🌸
+          🌊
         </div>
         <div className="absolute bottom-4 right-8 text-4xl animate-float select-none" aria-hidden>
-          ☁️
+          🐚
         </div>
         <p className="text-sm text-[color:var(--primary-strong)]">
           welcome 💌
@@ -22,16 +22,16 @@ export default function Home() {
           style={{ fontFamily: "var(--font-gaegu)" }}
         >
           안녕하세요, <br />
-          단영 블로그에 오신 걸 환영해요 🎀
+          단영 블로그에 오신 걸 환영해요 🌊
         </h1>
         <p className="mt-5 max-w-md text-[color:var(--muted)] leading-relaxed">
           소소한 일상, 달콤한 디저트, 개발하면서 배운 것들을 <br />
-          폭신폭신하게 기록하는 작은 공간이에요 🍑
+          찰랑찰랑 기록하는 작은 바다예요 🫧
         </p>
         <div className="mt-7 flex flex-wrap gap-3">
           <Link
             href="/posts"
-            className="inline-flex items-center gap-2 rounded-full bg-[color:var(--primary-strong)] px-5 py-2.5 text-sm font-medium text-white shadow-md transition hover:bg-[#ff5f88] hover:shadow-lg"
+            className="inline-flex items-center gap-2 rounded-full bg-[color:var(--primary-strong)] px-5 py-2.5 text-sm font-medium text-white shadow-md transition hover:bg-[#1a8ba9] hover:shadow-lg"
           >
             글 구경하기 <span aria-hidden>→</span>
           </Link>
@@ -39,7 +39,7 @@ export default function Home() {
             href="/about"
             className="inline-flex items-center gap-2 rounded-full border border-[color:var(--border)] bg-white px-5 py-2.5 text-sm font-medium text-[color:var(--foreground)] transition hover:bg-[color:var(--surface-soft)]"
           >
-            블로그 소개 🧸
+            블로그 소개 🐳
           </Link>
         </div>
       </section>
@@ -50,7 +50,7 @@ export default function Home() {
             className="text-2xl font-bold text-[color:var(--foreground)]"
             style={{ fontFamily: "var(--font-gaegu)" }}
           >
-            🍡 최근 글
+            🐚 최근 글
           </h2>
           <Link
             href="/posts"

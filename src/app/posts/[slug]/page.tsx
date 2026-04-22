@@ -56,7 +56,7 @@ export default async function PostPage({
         ← 글 목록으로
       </Link>
 
-      <header className="rounded-[2rem] border border-[color:var(--border)] bg-white/70 p-8 text-center shadow-[0_10px_30px_-15px_rgba(255,122,154,0.35)]">
+      <header className="rounded-[2rem] border border-[color:var(--border)] bg-white/70 p-8 text-center shadow-[0_10px_30px_-15px_rgba(47,165,196,0.35)]">
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-3xl bg-[color:var(--surface-soft)] text-5xl shadow-sm">
           {post.emoji}
         </div>
@@ -84,7 +84,7 @@ export default async function PostPage({
       </header>
 
       <div
-        className="prose-cute rounded-[2rem] bg-white/70 p-8 sm:p-10 border border-[color:var(--border)] shadow-[0_10px_30px_-20px_rgba(255,122,154,0.4)]"
+        className="prose-cute rounded-[2rem] bg-white/70 p-8 sm:p-10 border border-[color:var(--border)] shadow-[0_10px_30px_-20px_rgba(47,165,196,0.4)]"
         dangerouslySetInnerHTML={{ __html: post.contentHtml }}
       />
 
